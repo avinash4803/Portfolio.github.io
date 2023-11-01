@@ -165,7 +165,7 @@ hr {
 .icons:hover {
     width: 60px;
     height: auto;
-    img src: url(gmail.png);
+    
 }
 
 #icon1 {
@@ -193,12 +193,9 @@ hr {
     font-size: 30px;
 }
 
-.A {}
 
-.B {}
-
-#DP{
-    width:6%;
+#DP {
+    width: 6%;
     border-radius: 50%;
     margin-left: 45%;
     margin-top: 20px;
