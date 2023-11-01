@@ -5,6 +5,32 @@ body {
     background-color: #000000;
 }
 
+#tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f6de7f;
+}
+
+.tabb {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+}
+
+li a:hover {
+    background-color: rgb(84, 193, 121);
+}
+
 .Section1 {
     width: 100%;
     height: 600px;
@@ -40,7 +66,8 @@ body {
     font-size: 30px;
 
 }
-.Section5{
+
+.Section5 {
     width: 100%;
     height: 550px;
     background-color: rgb(255, 255, 255);
@@ -48,13 +75,15 @@ body {
     font-size: 30px;
 
 }
-.Section6{
+
+.Section6 {
     width: 100%;
     height: 200px;
     background-color: rgb(0, 0, 0);
-    
+
 
 }
+
 .Main {
 
     width: 400px;
@@ -79,7 +108,9 @@ h2 {
     color: black;
     margin: 0px;
     padding-left: 400px;
-    padding-top: 100px;
+    padding-top: 50px;
+
+
 }
 
 .avi {
@@ -106,7 +137,8 @@ img {
 .content {
     padding-left: 400px;
     padding-right: 350px;
-    padding-top: 30px;
+    padding-top: 0px;
+
 }
 
 hr {
@@ -129,15 +161,16 @@ hr {
 
 
 }
+
 .icons:hover {
     width: 60px;
-    height:auto;
-    img src:url(gmail.png);
-  }
+    height: auto;
+    img src: url(gmail.png);
+}
 
 #icon1 {
     margin-left: 50px;
-    
+
 }
 
 #icon2 {
@@ -151,10 +184,22 @@ hr {
 #icon4 {
     margin-left: 350px;
 }
-.Made{
+
+.Made {
     color: #ffffff;
     margin-left: 43%;
     margin-top: 50px;
     font-family: 'Cairo Play', sans-serif;
     font-size: 30px;
+}
+
+.A {}
+
+.B {}
+
+#DP{
+    width:6%;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 20px;
 }
